@@ -2,7 +2,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'kien/ctrlp.vim'
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdcommenter'
 Plug 'pangloss/vim-javascript'
 Plug 'airblade/vim-gitgutter'
@@ -13,7 +14,7 @@ Plug 'fatih/vim-go'
 Plug 'tpope/vim-markdown'
 Plug 'othree/html5.vim'
 Plug 'tpope/vim-fugitive'
-Plug 'tomasr/molokai'
+Plug 'chriskempson/base16-vim'
 Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
