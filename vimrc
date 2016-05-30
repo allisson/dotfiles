@@ -16,6 +16,7 @@ Plug 'othree/html5.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'chriskempson/base16-vim'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'ekalinin/dockerfile.vim'
 call plug#end()
 
 " default config
