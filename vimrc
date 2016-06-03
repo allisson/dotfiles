@@ -43,18 +43,9 @@ set background=dark
 set hlsearch
 set incsearch
 set ic scs
-if has("autocmd")
-    autocmd FileType yaml set ts=2 sts=2 sw=2 expandtab
-    autocmd FileType html set ts=2 sts=2 sw=2 expandtab
-    autocmd FileType htmldjango set ts=2 sts=2 sw=2 expandtab
-    autocmd FileType javascript set ts=2 sts=2 sw=2 expandtab
-    autocmd FileType python set ts=4 sts=4 sw=4 expandtab
-    autocmd FileType ruby set ts=2 sts=2 sw=2 expandtab
-    autocmd FileType css set ts=2 sts=2 sw=2 expandtab
-endif
 set colorcolumn=80
 set nowrap
-"set mouse=a
+set mouse=a
 set laststatus=2
 set wildignore+=**/node_modules
 set wildignore+=**/bower_components
@@ -66,10 +57,8 @@ set wildignore+=*.pyc
 vmap <C-c> "+yi
 vmap <C-x> "+c
 vmap <C-v> c<ESC>"+p
-imap <C-v> <C-r><C-o>+
-nnoremap <Leader>l :ls<CR>
-nnoremap <Leader>p :bp<CR>
-nnoremap <Leader>n :bn<CR>
+nnoremap <C-Left> :bp<CR>
+nnoremap <C-Right> :bn<CR>
 
 " vim airline
 let g:airline#extensions#tabline#enabled = 1
@@ -78,5 +67,4 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 
 " nerdtree
 nmap <silent> <C-D> :NERDTreeToggle<CR>
-let NERDTreeShowHidden=1
 
