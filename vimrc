@@ -45,7 +45,7 @@ set incsearch
 set ic scs
 set colorcolumn=80
 set nowrap
-set mouse=a
+"set mouse=a
 set laststatus=2
 set wildignore+=**/node_modules
 set wildignore+=**/bower_components
@@ -57,6 +57,7 @@ set wildignore+=*.pyc
 vmap <C-c> "+yi
 vmap <C-x> "+c
 vmap <C-v> c<ESC>"+p
+imap <C-v> <C-r><C-o>+
 nnoremap <C-Left> :bp<CR>
 nnoremap <C-Right> :bn<CR>
 
