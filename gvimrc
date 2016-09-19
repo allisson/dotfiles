@@ -1,2 +1,2 @@
-set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 12
-colorscheme base16-default
+set guifont=Envy\ Code\ R\ 14
+colorscheme base16-default-dark
