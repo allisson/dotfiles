@@ -15,7 +15,7 @@ Plug 'fatih/vim-go'
 Plug 'othree/html5.vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ekalinin/dockerfile.vim'
-Plug 'tomasr/molokai'
+Plug 'chriskempson/base16-vim'
 call plug#end()
 
 " vim-airline
@@ -28,6 +28,3 @@ map <C-n> :NERDTreeToggle<CR>
 let NERDTreeChDirMode=0
 let NERDTreeQuitOnOpen=1
 let NERDTreeKeepTreeInNewTab=1
-
-" colorscheme
-colorscheme molokai
