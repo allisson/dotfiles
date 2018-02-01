@@ -15,7 +15,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
-Plug 'valloric/youcompleteme'
+Plug 'ajh17/vimcompletesme'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'yggdroot/indentline'
 call plug#end()

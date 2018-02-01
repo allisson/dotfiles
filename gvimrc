@@ -1,1 +1,1 @@
-set guifont=Hermit\ 13
+set guifont=Hermit\ 14
