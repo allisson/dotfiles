@@ -30,6 +30,10 @@ map <C-n> :NERDTreeToggle<CR>
 let NERDTreeChDirMode=0
 let NERDTreeQuitOnOpen=1
 let NERDTreeKeepTreeInNewTab=1
+let NERDTreeShowHidden=1
 
 " colorscheme
 colorscheme onedark
+
+" show line numbers
+set nu
