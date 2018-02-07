@@ -18,6 +18,8 @@ Plug 'tpope/vim-sensible'
 Plug 'ajh17/vimcompletesme'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'yggdroot/indentline'
+Plug 'lambdalisue/vim-pyenv'
+Plug 'davidhalter/jedi-vim'
 call plug#end()
 
 " vim-airline
