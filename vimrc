@@ -1,3 +1,5 @@
+if has('python3')
+endif
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
 Plug 'bling/vim-airline'
@@ -5,7 +7,6 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'ekalinin/dockerfile.vim'
 Plug 'ervandew/supertab'
 Plug 'fatih/vim-go'
-Plug 'joshdick/onedark.vim'
 Plug 'kien/ctrlp.vim'
 Plug 'mileszs/ack.vim'
 Plug 'othree/html5.vim'
@@ -18,8 +19,12 @@ Plug 'tpope/vim-sensible'
 Plug 'ajh17/vimcompletesme'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'yggdroot/indentline'
-Plug 'lambdalisue/vim-pyenv'
 Plug 'davidhalter/jedi-vim'
+Plug 'lambdalisue/vim-pyenv'
+Plug 'Shougo/deoplete.nvim'
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
+Plug 'joshdick/onedark.vim'
 call plug#end()
 
 " vim-airline
@@ -39,3 +44,6 @@ colorscheme onedark
 
 " show line numbers
 set nu
+
+" pyenv
+let g:pyenv#auto_activate=0
