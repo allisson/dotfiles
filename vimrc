@@ -1,8 +1,5 @@
-if has('python3')
-endif
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
-Plug 'bling/vim-airline'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ekalinin/dockerfile.vim'
 Plug 'ervandew/supertab'
@@ -18,18 +15,14 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
 Plug 'ajh17/vimcompletesme'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-airline/vim-airline'
 Plug 'yggdroot/indentline'
-Plug 'davidhalter/jedi-vim'
-Plug 'lambdalisue/vim-pyenv'
-Plug 'Shougo/deoplete.nvim'
-Plug 'roxma/nvim-yarp'
-Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'joshdick/onedark.vim'
 call plug#end()
 
 " vim-airline
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
+"let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 
 " nerdtree
@@ -45,5 +38,7 @@ colorscheme onedark
 " show line numbers
 set nu
 
-" pyenv
-let g:pyenv#auto_activate=0
+" syntastic
+let g:syntastic_python_python_exec = '/Users/allisson/.pyenv/shims/python3'
+let g:syntastic_python_flake8_exec = '/Users/allisson/.pyenv/shims/flake8'
+
