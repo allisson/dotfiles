@@ -42,3 +42,5 @@ set nu
 let g:syntastic_python_python_exec = '/Users/allisson/.pyenv/shims/python3'
 let g:syntastic_python_flake8_exec = '/Users/allisson/.pyenv/shims/flake8'
 
+" no backup
+set nobackup
