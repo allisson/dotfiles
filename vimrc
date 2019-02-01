@@ -39,8 +39,11 @@ colorscheme onedark
 set nu
 
 " syntastic
-let g:syntastic_python_python_exec = '/Users/allisson/.pyenv/shims/python3'
-let g:syntastic_python_flake8_exec = '/Users/allisson/.pyenv/shims/flake8'
+let g:syntastic_python_python_exec = '/home/allisson/.pyenv/shims/python3'
+let g:syntastic_python_flake8_exec = '/home/allisson/.pyenv/shims/flake8'
 
 " no backup
 set nobackup
+
+" golang binary
+let g:go_bin_path = "/home/allisson/.goenv/shims/go"
